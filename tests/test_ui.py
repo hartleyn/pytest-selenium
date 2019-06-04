@@ -90,7 +90,7 @@ def test_forgot_password_bad_username(chrome_driver):
     Test Steps:
     1. Navigate to '/automation'.
     2. Click the 'share on Pocket' button.
-    3. Enter a username.
+    3. In the pop-up window, enter a username.
     4. Click the password field (to activate 'log in' button).
     5. Submit the form.
 
