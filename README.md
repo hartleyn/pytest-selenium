@@ -1,8 +1,10 @@
-## What is this?
+## An introduction to Python Selenium testing.
+
+### What is this?
 
 A quick demonstration of Selenium-based testing using Python. The tests were written using the Pytest testing framework. Pytest uses test discovery to run all 'test_' prefixed functions in 'test_' prefixed files. The test suite performs a series of functional tests on the user interface of UltimateQA.com. 
 
-## What techniques will I see?
+### What techniques will I see?
 
 Some of the automation techniques on display include:
 * URL navigation
@@ -12,15 +14,15 @@ Some of the automation techniques on display include:
 * Result validation using ```assert``` statements
 * 'Page Object Model' design pattern implementation
 
-## Why is this important? How is it used?
+### Why is this important? How is it used?
 
 Automated browser tests are often utilized within the continuous integration pipeline of agile development teams. Running automated tests prior to accepting code changes helps ensure ongoing build stability; a practice known as test driven development (TDD).
 
-## What does 'Page Object Model' mean?
+### What does 'Page Object Model' mean?
 
 As previously mentioned, this test suite employs the page object model (POM) design pattern. POM calls for an individual class to be created for each webpage. The class contains the various page elements for a given webpage as attributes. Methods for performing operations on the webpage's elements may also be added to the class. POM makes test maintenance easier by separating the test code from page-specific logic.
 
-## Where can I find more information?
+### Where can I find more information?
 
 Pytest Documentation: https://docs.pytest.org/en/latest/index.html
 
