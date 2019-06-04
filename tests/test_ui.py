@@ -7,6 +7,7 @@ from pages import (
     PocketLoginPage,
 )
 
+
 """
     Verify that an error message is displayed after
     submitting the contact form with a missing captcha value.
