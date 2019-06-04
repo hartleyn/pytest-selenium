@@ -1,3 +1,39 @@
+## What is this?
+
+A quick demonstration of Selenium-based testing using Python. The tests were written using the Pytest testing framework. Pytest uses test discovery to run all 'test_' prefixed functions in 'test_' prefixed files. The test suite performs a series of functional tests on the user interface of UltimateQA.com. 
+
+## What techniques will I see?
+
+Some of the automation techniques on display include:
+* URL navigation
+* Interacting with forms
+* Clicking buttons
+* Interacting with pop-up windows
+* Result validation using ```assert``` statements
+* 'Page Object Model' design pattern implementation
+
+## Why is this important? How is it used?
+
+Automated browser tests are often utilized within the continuous integration pipeline of agile development teams. Running automated tests prior to accepting code changes helps ensure ongoing build stability; a practice known as test driven development (TDD).
+
+## What does 'Page Object Model' mean?
+
+As previously mentioned, this test suite employs the page object model (POM) design pattern. POM calls for an individual class to be created for each webpage. The class contains the various page elements for a given webpage as attributes. Methods for performing operations on the webpage's elements may also be added to the class. POM makes test maintenance easier by separating the test code from page-specific logic.
+
+## Where can I find more information?
+
+Pytest Documentation: https://docs.pytest.org/en/latest/index.html
+
+Test Collection in Pytest: https://docs.pytest.org/en/latest/goodpractices.html#test-discovery
+
+Unofficial Python Selenium Documention: https://selenium-python.readthedocs.io/api.html
+
+Official Documentation: https://seleniumhq.github.io/selenium/docs/api/py/api.html
+
+More on POM: https://selenium-python.readthedocs.io/page-objects.html
+
+---
+
 ## Test Cases
 
 ### A) Verify that an error message is displayed after submitting the contact form with a missing captcha value.
@@ -37,12 +73,12 @@ An error message stating that the username is unknown is
 displayed.
 
 
-### D) Verify that an error message is displayed after submitting the Pocket 'log in' form with no password.
+### D) Verify that an error message is displayed after submitting the Pocket 'log in', pop-up form with no password.
 
 Test Steps:
 1. Navigate to '/automation'.
 2. Click the 'share on Pocket' button.
-3. Enter a username.
+3. In the pop-up window, enter a username.
 4. Click the password field (to activate 'log in' button).
 5. Submit the form.
 
