@@ -1,5 +1,7 @@
 ## An introduction to Python Selenium testing.
 
+[![YouTube Video](https://i9.ytimg.com/vi/jstptPq5YxU/mq2.jpg?sqp=CMip2-cF&rs=AOn4CLD89JACj-0xXZa-9sKsEmh_018how)](https://www.youtube.com/watch?v=jstptPq5YxU)
+
 ### What is this?
 
 A quick demonstration of Selenium-based testing using Python. The tests were written using the Pytest testing framework. Pytest uses test discovery to run all 'test_' prefixed functions in 'test_' prefixed files. The test suite performs a series of functional tests on the user interface of UltimateQA.com. 
