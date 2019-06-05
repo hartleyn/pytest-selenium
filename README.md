@@ -1,6 +1,6 @@
 ## An introduction to Python Selenium testing.
 
-[![YouTube Video](https://i9.ytimg.com/vi/jstptPq5YxU/mq2.jpg?sqp=CMip2-cF&rs=AOn4CLD89JACj-0xXZa-9sKsEmh_018how)](https://www.youtube.com/watch?v=jstptPq5YxU)
+![](https://media.giphy.com/media/W1ZbtVWgXeQXfh0W1U/giphy.gif)
 
 ### What is this?
 
