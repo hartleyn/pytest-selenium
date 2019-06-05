@@ -39,4 +39,4 @@ class PocketLoginPage(PageObject):
     username_field = PageElement(id_='field-1')
     password_field = PageElement(id_='field-2')
     login_button = PageElement(css='#login-page-login-container > div > form > input')
-    error_message_buble = PageElement(xpath='//*[@id="login-page-login-container"]/div/form/div[2]/span/span[1]')
+    error_message_bubble = PageElement(xpath='//*[@id="login-page-login-container"]/div/form/div[2]/span/span[1]')

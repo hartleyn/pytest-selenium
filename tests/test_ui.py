@@ -85,7 +85,7 @@ def test_forgot_password_bad_username(chrome_driver):
 
 """
     Verify that an error message is displayed after submitting
-    the Pocket 'log in' form with no password.
+    the Pocket 'log in', pop-up form with no password.
 
     Test Steps:
     1. Navigate to '/automation'.
@@ -110,5 +110,5 @@ def test_pocket_login_no_password(chrome_driver):
     page.password_field.click()
     page.login_button.click()
 
-    assert(page.error_message_buble.is_displayed())
-    assert('Please enter at least 6 characters' in page.error_message_buble.text)
+    assert(page.error_message_bubble.is_displayed())
+    assert('Please enter at least 6 characters' in page.error_message_bubble.text)
