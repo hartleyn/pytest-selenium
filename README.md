@@ -1,6 +1,7 @@
 ## An introduction to Python Selenium testing.
 
-![](https://media.giphy.com/media/W1ZbtVWgXeQXfh0W1U/giphy.gif)
+[![Watch the Running Tests](https://media.giphy.com/media/W1ZbtVWgXeQXfh0W1U/giphy.gif)](https://www.youtube.com/watch?v=jstptPq5YxU)
+###### Click the GIF to see the tests in action!
 
 ### What is this?
 
@@ -35,6 +36,8 @@ Unofficial Python Selenium Documention: https://selenium-python.readthedocs.io/a
 Official Documentation: https://seleniumhq.github.io/selenium/docs/api/py/api.html
 
 More on POM: https://selenium-python.readthedocs.io/page-objects.html
+
+Watch the Tests: https://www.youtube.com/watch?v=jstptPq5YxU
 
 ---
 
