@@ -4,7 +4,7 @@ importlib-metadata==0.17
 more-itertools==7.0.0
 page-objects==1.1.0
 pluggy==0.12.0
-py==1.8.0
+py==1.10.0
 pytest==4.5.0
 pytest-fixture-config==1.7.0
 pytest-webdriver==1.7.0
